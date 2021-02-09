@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/bgaaa"
+    android:gravity="center">
 
     <TextView
         android:id="@+id/textView"
@@ -9,6 +11,10 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:text="TextView"
-        android:textSize="36sp" />
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="italic|bold" />
 
 </RelativeLayout>
